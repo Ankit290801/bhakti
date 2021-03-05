@@ -590,6 +590,7 @@ section .title::after{
     padding-top: 10px;
     resize: none;
 }
+
 .contact .right form .button{
     height: 47px;
     width: 170px;
@@ -787,6 +788,11 @@ footer span a:hover{
     {
       size:80px 0;
     }
+
+    .contact .contact-content .column .right iframe{
+        max-height: 300px;
+        max-width: 250px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -836,4 +842,17 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
+
+    .contact .
+}
+
+/*NAVBAR STYLING */
+#header-nav ul li{
+    justify-content: space-around;
+    font-size: 12px;
+}
+
+.navbar img{
+    height: 30px;
+    width: 30px;
 }

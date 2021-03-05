@@ -16,6 +16,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <style>
   
     h1 {text-align: center;}
@@ -24,7 +29,7 @@
 <body>
 
 
-
+<!--
 <nav class="navbar navbar-inverse">
 <div class="container-fluid">
   <div class="navbar-header">
@@ -60,6 +65,41 @@
 </div>
 
 </nav>
+-->
+
+<!--Updated NAVBAR-->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-0">
+    <img src="./images/logo.png" />
+    <a class="navbar-brand pt-4" href="#">Bhaktivedanta Institute</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header-nav" aria-controls="header-nav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="header-nav">
+      <ul class="navbar-nav navbar-right ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Creativity</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Cash Prize</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Registration</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+      
+    </div>
+  </nav>
+
 
     <!-- home section start -->
     <section class="home" id="home">
@@ -237,21 +277,17 @@ Rules,Guidelines,Evaluation</div>
     <!-- contact section start -->
     <section class="contact" id="contact">
         <div class="max-width">
-            <h2 class="title">
-Contact us</h2>
-<div class="contact-content">
+            <h2 class="title">Contact us</h2>
+            <div class="contact-content">
                 <div class="column left">
-                    <div class="text">
-Get in Touch</div>
-<p>
-  In anycase of inquiry or trouble you can contact us.
-</p>
-<div class="icons">
+                    <div class="text">Get in Touch</div>
+                    <p>In anycase of inquiry or trouble you can contact us.</p>
+                    <div class="icons">
                         <div class="row">
                             <i class="fas fa-user"></i>
                             <div class="info">
                                 <div class="head">
-Contact number</div>
+                                  Contact number</div>
 <div class="sub-title">
 +91 7569865357</div>
 </div>
@@ -279,7 +315,12 @@ essay.bibbsr@gmail.com</div>
 <div class="column right">
                     <div class="text">
 </div>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8717.57986688239!2d85.67124923274775!3d20.152825120318063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19ac3d2987b839%3A0xe8d0bb889f6860c5!2sBhaktivedanta%20Institute%20Bhubaneswar%20Center!5e0!3m2!1sen!2sin!4v1614658288625!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8717.57986688239!2d85.67124923274775!3d20.152825120318063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19ac3d2987b839%3A0xe8d0bb889f6860c5!2sBhaktivedanta%20Institute%20Bhubaneswar%20Center!5e0!3m2!1sen!2sin!4v1614658288625!5m2!1sen!2sin" 
+  width="500" height="450" style="border:0; @media screen and (max-width: 600px) {
+    width: 400px;
+    height: 100px;
+    margin: 0 20px 0 0;
+  }" allowfullscreen="" loading="lazy"></iframe>
                         </div>
 </form>
 </div>
