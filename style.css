@@ -195,14 +195,13 @@ section .title::after{
     background: url("images/8.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
-    min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
 }
-.home .max-width{
+/* .home .max-width{
     margin: auto 0 auto 30px;
-}
+} */
 .home .home-content a{
     display: inline-block;
     background: darkblue;
@@ -210,29 +209,30 @@ section .title::after{
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
+    margin-left: 100px;
     font-weight: 400;
-    border-radius: 6px;
+    border-radius: 35px;
     border: 2px solid darkblue;
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
     color: darkblue;
     background: none;
+    text-decoration: none;
 }
 .home .home-content .transbox{
-  margin: 40px;
-
-    background-color: #8B00007f ;
+    margin: 0 100px;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 300px;
+    border-radius: 25px;
+    background-color: #DC3545 ;
+    opacity: 0.8;
 
 }
 
-.home .home-content .transbox .p{
 
-
-  color: #000000;
-  opacity: 1;
-  font-size: 150px ;
-}
 #home > div > div > b > div > p{
 
   color: white;
@@ -744,9 +744,13 @@ footer span a:hover{
         margin-bottom: 20px;
     }
     .skills .skills-content .column,
-    .contact .contact-content .column{
+    /* .contact .contact-content .column*/{
         width: 100%;
         margin-bottom: 35px;
+    }
+    .contact .column .map{
+        height: 350px;
+        width: 400px;
     }
 }
 
@@ -814,6 +818,12 @@ footer span a:hover{
         background-position: center;
         background-size: 500px 300px;
     }
+    .home .home-content a{
+        margin: 10px auto;
+    }
+    .home .home-content .transbox{
+        margin: 10px auto;
+    }
 
     .about .about-content .right .text,
     .skills .skills-content .left .text{
@@ -843,7 +853,14 @@ footer span a:hover{
         line-height: 38px;
     }
 
-    .contact .
+    .contact .contact-content .column{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .contact .column .map{
+        width: 350px;
+        height: 250px;
+    }
 }
 
 /*NAVBAR STYLING */
