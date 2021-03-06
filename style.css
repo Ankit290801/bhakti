@@ -853,6 +853,8 @@ footer span a:hover{
         line-height: 38px;
     }
 
+    .skills .skills-content .left,
+    .skills .skills-content .right,
     .contact .contact-content .column{
         width: 100%;
         margin-bottom: 20px;
